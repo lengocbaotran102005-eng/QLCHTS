@@ -1,0 +1,11 @@
+# Phần mềm quản lý cửa hàng trang sức Bảo Trân Jewelry
+# Cài đặt: pip install -r requirements.txt   (Python 3.10 – 3.14, khuyến nghị 3.12)
+#
+# sqlite3, csv, decimal, urllib... là thư viện chuẩn của Python, KHÔNG cần cài thêm.
+
+# Giao diện desktop Qt: QtWidgets, QtSvg (icon), QtPrintSupport (xem trước / in / xuất PDF hóa đơn)
+PySide6-Essentials>=6.6
+# Vẽ biểu đồ doanh thu, nhúng vào cửa sổ PySide6
+matplotlib>=3.8
+# Kiểm tra, chuẩn hóa ảnh sản phẩm và tạo ảnh minh họa mặc định
+Pillow>=10.0
